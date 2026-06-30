@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./assets/header-banner.svg" alt="Chetan Dixit — header banner" width="100%" />
+<img src="./assets/header-banner.svg" alt="Chetan Dixit — Machine Learning Engineer, Java Developer" width="100%" />
 
 <br/>
 
@@ -11,33 +11,29 @@
 
 <br/>
 
-<a href="#-about-me">About</a> •
-<a href="#️-tech-stack">Tech Stack</a> •
-<a href="#-dsa--leetcode">DSA</a> •
-<a href="#-featured-projects">Projects</a> •
-<a href="#-github-stats">Stats</a> •
-<a href="#-connect-with-me">Connect</a>
+<a href="#about-me">About</a> •
+<a href="#tech-stack">Tech Stack</a> •
+<a href="#featured-projects">Projects</a> •
+<a href="#dsa--leetcode">DSA</a> •
+<a href="#certifications">Certifications</a> •
+<a href="#connect-with-me">Connect</a>
 
 </div>
 
 ---
 
-## 🧬 About Me
+## About Me
 
-| | |
-|---|---|
-| 👤 **Name** | Chetan Dixit |
-| 🎓 **Degree** | B.Tech, Computer Science & Engineering |
-| 💼 **Role** | Java Developer · Aspiring ML Engineer |
-| 🛠️ **Tech Stack** | Java, Python, TensorFlow, Keras, Scikit-learn |
-| 🧠 **Interests** | Machine Learning · Deep Learning · DSA · Full-Stack Dev |
-| ⚡ **Currently** | Building deep learning projects & sharpening DSA in Java |
-| 🎯 **Goal** | Become a skilled Software Engineer & ML Developer |
-| 💬 **Ask Me About** | Java, OOP, DSA, TensorFlow/Keras, Neural Networks |
+- 🎓 B.Tech Computer Science Engineering student
+- 🤖 Interested in **Machine Learning** and **Deep Learning**
+- 💻 Core stack: **Java, Python, TensorFlow**
+- 🧩 Solving Data Structures & Algorithms in **Java**
+- 🛠️ Building **end-to-end ML projects** — from model training to deployment
+- 🎯 Seeking **Machine Learning / Software Engineering internships**
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 <div align="center">
 
@@ -69,22 +65,92 @@
 ![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
 ![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
 
+**Currently Exploring**
+
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+
 </div>
 
 ---
 
-## 🔥 Current Focus
+## Current Focus
 
-- 🧩 Data Structures & Algorithms
-- ☕ Advanced Java & OOP
-- 🤖 Machine Learning Specialization
-- 🧠 Deep Learning Fundamentals
-- 🛠️ Building Real-World Projects
-- 🌍 Open Source & GitHub Portfolio Development
+- 🏗️ Building End-to-End ML Systems
+- 🧠 Deep Learning
+- 🔮 Large Language Models (LLMs)
+- 🧩 Data Structures & Algorithms (Java)
+- ⚡ FastAPI
 
 ---
 
-## 🧩 DSA & LeetCode
+## Featured Projects
+
+<!-- 📸 Recommendation: place a short architecture GIF/diagram directly under each project title where available. See note at the end of this README for image-placement guidance. -->
+
+### 1. 🎬 Movie Recommender System — Two-Tower Neural Network
+
+A deep learning-based movie recommendation engine built with TensorFlow/Keras using a **Two-Tower architecture** to learn separate user and movie embeddings for personalized recommendations.
+
+<!-- 📸 Add architecture diagram here: user-tower / movie-tower / dot-product similarity flow -->
+
+| | |
+|---|---|
+| **Dataset** | MovieLens 100K / 1M *(update if different)* |
+| **Performance** | RMSE: `_.__` · MAE: `_.__` *(add your actual evaluation metrics)* |
+| **Tech Stack** | ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white) ![Keras](https://img.shields.io/badge/Keras-D00000?style=flat-square&logo=keras&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) |
+| **Key Features** | Embedding-based user/item representations · Two-tower retrieval architecture · Cosine/dot-product similarity ranking |
+
+🔗 **Repository:** [github.com/ChetanDixit-0717/movie-recommender-two-tower](https://github.com/ChetanDixit-0717/movie-recommender-two-tower) *(update with your actual repo link)*
+📄 **README:** _Link to detailed README, if separate from repo_
+🌐 **Live Demo:** _Add if deployed (e.g. Streamlit/Hugging Face Spaces)_
+
+---
+
+### 2. ❤️ Heart Failure Prediction
+
+A machine learning classification model that predicts heart failure risk from clinical patient data, focused on feature engineering and model evaluation for healthcare-relevant predictions.
+
+<!-- 📸 Add confusion matrix / ROC curve / feature-importance plot here -->
+
+| | |
+|---|---|
+| **Tech Stack** | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![scikit--learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white) ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white) |
+| **Key Features** | Exploratory data analysis · Feature engineering · Model comparison & evaluation |
+
+🔗 **Repository:** _Add your repository link here_
+
+---
+
+### 3. 🔢 Handwritten Digit Recognizer
+
+An Artificial Neural Network (ANN) built with TensorFlow and Keras to classify handwritten digits using the MNIST dataset.
+
+| | |
+|---|---|
+| **Tech Stack** | ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white) ![Keras](https://img.shields.io/badge/Keras-D00000?style=flat-square&logo=keras&logoColor=white) |
+| **Key Features** | MNIST dataset · Fully connected ANN classifier · Accuracy/loss visualization |
+
+🔗 **Repository:** _Add your repository link here_
+
+---
+
+### 4. 📚 Student Management System (CLI)
+
+A command-line based student management system built in Python, supporting full CRUD operations with JSON-based data persistence.
+
+| | |
+|---|---|
+| **Tech Stack** | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) |
+| **Key Features** | Full CRUD operations · JSON file-based persistence · Clean OOP structure |
+
+🔗 **Repository:** _Add your repository link here_
+
+---
+
+## DSA & LeetCode
 
 <div align="center">
 
@@ -103,69 +169,27 @@
 
 ---
 
-## 🚀 Featured Projects
+## Achievements & Highlights
 
-### 🎬 Movie Recommender System (Two-Tower Neural Network)
-A deep learning-based movie recommendation system built with TensorFlow/Keras using a Two-Tower architecture to learn user and movie embeddings for personalized recommendations.
-
-### 🔢 Handwritten Digit Recognizer
-Artificial Neural Network (ANN) built with TensorFlow and Keras to classify handwritten digits using the MNIST dataset.
-
-### 📚 Student Management System (CLI)
-A command-line based student management system built in Python, supporting full CRUD operations along with data persistence using JSON. Designed to demonstrate clean code organization, file handling, and object-oriented programming concepts.
-
-### 🔮 More Projects Coming Soon...
-- Machine Learning Projects
-- Deep Learning Projects
-- Full-Stack Web Applications
-- Open Source Contributions
+- 🏆 Solved 100+ DSA problems on LeetCode, earned the *50 Days Badge 2026*
+- 🚀 Built and deployed a Two-Tower deep learning recommendation system from scratch
+- 📈 Actively building a portfolio of end-to-end ML projects covering the full pipeline — data, modeling, and evaluation
+- 🌱 Continuously expanding into backend (FastAPI) and database (SQL/MongoDB) skills to support full ML system deployment
 
 ---
 
-## 📊 GitHub Stats
+## Certifications
 
-<div align="center">
-
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=ChetanDixit-0717&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true" alt="GitHub Stats" />
-<img height="165" src="https://github-readme-streak-stats.herokuapp.com/?user=ChetanDixit-0717&theme=tokyonight" alt="GitHub Streak" />
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ChetanDixit-0717&layout=compact&theme=tokyonight" alt="Top Languages" />
-
-</div>
+| Certification | Issuer | Status |
+|---|---|---|
+| Machine Learning Specialization | DeepLearning.AI / Coursera | _Add completion link/date_ |
+| Deep Learning Specialization | DeepLearning.AI | _Add completion link/date_ |
+| Kaggle Certificates (Python / Pandas / Intro to ML) | Kaggle | _Add certificate links_ |
+| Amazon ML Summer School | Amazon | _Add if selected_ |
 
 ---
 
-## 🏆 Trophies
-
-<div align="center">
-
-<img src="https://github-profile-trophy.vercel.app/?username=ChetanDixit-0717&theme=tokyonight&no-frame=true&no-bg=true&margin-w=6&column=7" alt="trophies" />
-
-</div>
-
----
-
-## ✍️ Dev Quote of the Day
-
-<div align="center">
-
-<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="quote" />
-
-</div>
-
----
-
-## 📈 GitHub Goals for 2026
-
-- ✅ Build 10+ high-quality projects
-- ✅ Complete Machine Learning & Deep Learning Specializations
-- ✅ Strengthen DSA and Competitive Programming skills
-- ✅ Contribute to Open Source projects
-- ✅ Create a strong Software Engineering & ML portfolio
-
----
-
-## 📫 Connect With Me
+## Connect With Me
 
 <div align="center">
 
@@ -179,8 +203,6 @@ A command-line based student management system built in Python, supporting full 
 ---
 
 <div align="center">
-
-⭐ Thanks for visiting my profile! Feel free to explore my repositories and connect with me.
 
 <img src="./assets/footer-banner.svg" alt="footer banner" width="100%" />
 
