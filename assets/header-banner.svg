@@ -1,0 +1,100 @@
+<svg width="100%" height="320" viewBox="0 0 1200 320" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b0f1a"/>
+      <stop offset="50%" stop-color="#11172b"/>
+      <stop offset="100%" stop-color="#0d1117"/>
+    </linearGradient>
+    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#58A6FF"/>
+      <stop offset="50%" stop-color="#A78BFA"/>
+      <stop offset="100%" stop-color="#58A6FF"/>
+      <animate attributeName="x1" values="0%;100%;0%" dur="6s" repeatCount="indefinite"/>
+      <animate attributeName="x2" values="100%;200%;100%" dur="6s" repeatCount="indefinite"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#2EA3F7" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#2EA3F7" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="soft" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="1.2"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="320" fill="url(#bgGrad)"/>
+  <circle cx="600" cy="160" r="280" fill="url(#glow)"/>
+
+  <!-- neural network backdrop -->
+  <g stroke="#2EA3F7" stroke-opacity="0.18" stroke-width="1">
+    <line x1="80" y1="60" x2="220" y2="120"/>
+    <line x1="220" y1="120" x2="150" y2="220"/>
+    <line x1="220" y1="120" x2="340" y2="90"/>
+    <line x1="150" y1="220" x2="60" y2="260"/>
+    <line x1="340" y1="90" x2="430" y2="170"/>
+    <line x1="930" y1="70" x2="1060" y2="110"/>
+    <line x1="1060" y1="110" x2="1010" y2="210"/>
+    <line x1="1060" y1="110" x2="1150" y2="80"/>
+    <line x1="1010" y1="210" x2="1100" y2="270"/>
+    <line x1="930" y1="70" x2="840" y2="140"/>
+  </g>
+  <g fill="#58A6FF" fill-opacity="0.55">
+    <circle cx="80" cy="60" r="3.5"/>
+    <circle cx="220" cy="120" r="4.5"/>
+    <circle cx="150" cy="220" r="3.5"/>
+    <circle cx="340" cy="90" r="3"/>
+    <circle cx="60" cy="260" r="3"/>
+    <circle cx="430" cy="170" r="3"/>
+    <circle cx="930" cy="70" r="3.5"/>
+    <circle cx="1060" cy="110" r="4.5"/>
+    <circle cx="1010" cy="210" r="3.5"/>
+    <circle cx="1150" cy="80" r="3"/>
+    <circle cx="1100" cy="270" r="3"/>
+    <circle cx="840" cy="140" r="3"/>
+    <animate attributeName="fill-opacity" values="0.3;0.7;0.3" dur="3.5s" repeatCount="indefinite"/>
+  </g>
+
+  <!-- code bracket accents -->
+  <text x="40" y="200" font-family="Fira Code, monospace" font-size="64" fill="#2EA3F7" fill-opacity="0.12" font-weight="700">&lt;/&gt;</text>
+  <text x="1040" y="120" font-family="Fira Code, monospace" font-size="64" fill="#A78BFA" fill-opacity="0.12" font-weight="700">{ }</text>
+
+  <!-- main heading -->
+  <text x="600" y="148" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="56" font-weight="800" fill="url(#textGrad)">
+    Hi, I'm Chetan
+    <animate attributeName="opacity" values="0;1" dur="1s" fill="freeze"/>
+  </text>
+  <text x="640" y="148" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="48">
+    👋
+    <animateTransform attributeName="transform" type="rotate" values="0 640 130;20 640 130;0 640 130;20 640 130;0 640 130" dur="1.8s" begin="0.6s" repeatCount="2"/>
+  </text>
+
+  <!-- subtitle -->
+  <text x="600" y="192" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="20" fill="#9aa7c2" letter-spacing="0.5">
+    B.Tech CSE Student &#160;•&#160; Java Developer &#160;•&#160; Aspiring ML Engineer
+  </text>
+
+  <!-- animated underline -->
+  <rect x="430" y="212" width="0" height="3" rx="1.5" fill="url(#textGrad)">
+    <animate attributeName="width" from="0" to="340" dur="1s" begin="0.4s" fill="freeze"/>
+    <animate attributeName="x" from="600" to="430" dur="1s" begin="0.4s" fill="freeze"/>
+  </rect>
+
+  <!-- tech chips -->
+  <g font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="600">
+    <g transform="translate(420,250)">
+      <rect width="78" height="28" rx="14" fill="#161b2e" stroke="#2EA3F7" stroke-opacity="0.4"/>
+      <text x="39" y="19" text-anchor="middle" fill="#9ecbff">Java</text>
+    </g>
+    <g transform="translate(508,250)">
+      <rect width="92" height="28" rx="14" fill="#161b2e" stroke="#A78BFA" stroke-opacity="0.4"/>
+      <text x="46" y="19" text-anchor="middle" fill="#cdbcff">Python</text>
+    </g>
+    <g transform="translate(610,250)">
+      <rect width="124" height="28" rx="14" fill="#161b2e" stroke="#2EA3F7" stroke-opacity="0.4"/>
+      <text x="62" y="19" text-anchor="middle" fill="#9ecbff">TensorFlow</text>
+    </g>
+    <g transform="translate(744,250)">
+      <rect width="56" height="28" rx="14" fill="#161b2e" stroke="#A78BFA" stroke-opacity="0.4"/>
+      <text x="28" y="19" text-anchor="middle" fill="#cdbcff">DSA</text>
+    </g>
+  </g>
+</svg>
